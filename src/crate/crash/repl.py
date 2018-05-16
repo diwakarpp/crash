@@ -106,8 +106,8 @@ class TruncatedFileHistory(FileHistory):
 class SQLCompleter(Completer):
     keywords = [
         "abs", "absolute", "action", "add", "after", "alias", "all", "allocate",
-        "alter", "always", "analyzer", "and", "any", "are", "array", "array_agg",
-        "array_max_cardinality", "as", "asc", "asensitive", "assertion",
+        "alter", "always", "analyze", "analyzer", "and", "any", "are", "array",
+        "array_agg", "array_max_cardinality", "as", "asc", "asensitive", "assertion",
         "asymmetric", "at", "atomic", "authorization", "avg", "before", "begin",
         "begin_frame", "begin_partition", "between", "bigint", "binary", "bit",
         "bit_length", "blob", "boolean", "both", "breadth", "by", "byte", "call",
